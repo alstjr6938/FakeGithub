@@ -1,0 +1,302 @@
+* {
+    font-family: Arial;
+}
+.container{
+    width: 1200px;
+    display: inline-block;
+    margin: 0px 300px 0px 300px;
+    padding: 0px 5px 0px 5px;
+
+}
+
+/*헤더부분*/
+header{
+    margin: 0px 0px;
+    background-color:#F5F5F5;
+}
+#first_header tr{
+
+}
+
+#first_header{
+    /*display: inline-block;*/
+    height: 50px;
+}
+#ThisRepo{
+    border: outset;
+    border-width: 1px;
+    border-color: darkgrey;
+}
+/*헤더 오른쪽부분*/
+
+#signupandin{
+    float: right;
+}
+
+.signup{
+    background-color: #84d667;
+    border-color: #84d667;
+    border-radius: 5px;
+    padding: 3px 8px;
+}
+
+.signin{
+    background-color: white;
+    border-color: #84d667;
+    border-radius: 5px;
+    padding: 3px 8px;
+}
+
+#header2{
+    padding: 20px 0px;
+    font-size: 150%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #f2f2f2;
+}
+
+#header2 #rightbuttons{
+    float: right;
+}
+
+#left_Knowre svg{
+    width: 20px;
+}
+
+/*왼쪽바디*/
+
+#contents{
+    width: 900px;
+    border-style:solid;
+    border-width: 0px;
+    border-color: red;
+    float: left;
+    /*margin-right: 10px;*/
+}
+
+.textblue{
+    color: #427ac1;
+}
+
+.textgrey{
+    color: #9a9a9a;
+}
+
+.textblack{
+    color: black;
+}
+
+
+
+#firstsentence {
+    padding : 25px 0px 25px 0px;
+}
+
+#statustable {
+    border: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #ececec;
+}
+
+#statustable th {
+    padding: 10px 50px;
+    border-width: thin;
+}
+
+#yellowblock {
+    height: 10px;
+    background-color: #f1e05a;
+}
+
+#listbutton {
+    float: right;
+}
+
+#buttonworld {
+    padding: 10px 0px 10px 0px;
+}
+
+.branch_button {
+    height: 30px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    border-color: #e6e6e6;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+    border-width: thin;
+}
+
+#gitcompare {
+    background-color: #84d667;
+    border-color: #84d667;
+    border-radius: 5px;
+    padding: 3px 8px;
+}
+
+.readmetable {
+    border: solid;
+    border-width: 1px;
+    border-color: #e5e5e5;
+}
+
+.readme_head{
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.readme_contents{
+    margin: 50px 30px 50px 30px;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px ;
+    border-bottom-color: #f2f2f2;
+    font-weight: 700;
+}
+
+#readme_content_text{
+    font-size: 250%;
+    color: black;
+}
+
+/*오른쪽콘텐츠*/
+
+#right{
+    width: 280px;
+    height:570px;
+    border-color: white;
+    border-style:solid;
+    border-width:1px;
+    border-radius:10px;
+    margin-left: 10px;
+    float: right;
+
+
+}
+
+.right_contents{
+    width: 250px;
+}
+.navigation li {
+    display: block;
+    padding: 20px 0px 20px 0px;
+    color: #427ac1;
+
+}
+.navigation{
+    border-left:5px solid #f8f8f8;
+    border-bottom:5px solid #f8f8f8;
+    width:250px;
+    border-radius:5px;
+    margin-left:5px;
+
+}
+.navigation li:hover{
+    background-color:white;
+    color:black;
+    font-weight: bold;
+    border-radius:5px;
+    border-top:2px solid #e5e5e5;
+    border-bottom:2px solid #e5e5e5;
+    border-right:5px solid orangered;
+
+
+}
+#code{
+    padding:20px 0px 20px 0px;
+}
+
+
+
+.github_search{
+    width:200px;
+
+    border-radius: 3px;
+}
+#search{
+    margin-left:30px;
+}
+#right_bottom{
+    margin-left:35px;
+}
+#clone_in_desktop{
+    width:200px;
+    height:30px;
+    text-align:center;
+    margin-bottom:10px;
+}
+#download_zip{
+    width:200px;
+    height:30px;
+    text-align:center;
+}
+
+/*왼쪽바디 표*/
+a:link {
+    text-decoration: none; color: #427ac1;
+}
+#branch_bar{
+    background-color: #F5F5F5;
+    height: 30px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    border-width: 1px;
+    color: grey;
+    padding-top: 5px;
+}
+
+#branch_btn{
+    float: right;
+    text-align: right;
+    color: grey;
+}
+
+table#main_table #table_contents_time{
+    text-align: right;
+    padding-right: 10px;
+}
+table#main_table{
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: #e5e5e5;
+    color: grey;
+}
+table#main_table #main_tab_col1{
+    background-color: #E6F1F5;
+    padding-left: 10px;
+}
+table#main_table #main_tab_col2, #main_tab_col5{
+    background-color: #F5F5F5;
+}
+table#main_table td{
+    padding-left: 10px;
+}
+td {
+    height: 30px;
+}
+#strong{
+    color: black;
+}
+
+#href{
+    color: #427ac1;
+}
+
+
+.github_search{
+    height:25px;
+
+}
+
+
+.footer_border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f2f2f2;
+    margin: 30px 0px 30px 0px;
+}
+
+
+
